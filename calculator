@@ -1,0 +1,15 @@
+import "dart:io";
+import "dart:math";
+void main(){
+   print("Basic calculator using dart programming language");
+    print("Let us take two numbers and perform operations on them");
+    print("First number:");
+   int n=int.parse(stdin.readLineSync());
+print("Second number:");
+   int m=int.parse(stdin.readLineSync());
+print(n+m);
+    print(n-m);
+    print(n*m);
+    print(n/m);
+    print(n~/m);  
+}
